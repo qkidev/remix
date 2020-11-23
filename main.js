@@ -21833,7 +21833,7 @@ function _run() {
             } else if (window.location.hostname === 'remix-alpha.ethereum.org' || window.location.hostname === 'ethereum.github.io' && window.location.pathname.indexOf('/remix-live-alpha') === 0) {
               modalDialogCustom.alert("Welcome to the Remix alpha instance. Please use it to try out latest features. But use preferably https://remix.ethereum.org for any production work.");
             } else if (window.location.protocol.indexOf('http') === 0 && window.location.hostname !== 'remix.ethereum.org' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
-              modalDialogCustom.alert("The Remix IDE has moved to http://remix.ethereum.org.\n\nThis instance of Remix you are visiting WILL NOT BE UPDATED.\n\nPlease make a backup of your contracts and start using http://remix.ethereum.org");
+              modalDialogCustom.alert("欢迎使用QKI智能合约编译器，如果遇到问题，请在应用开发群https://t.me/QuarkDapp 相互交流");
             }
 
             if (window.location.protocol.indexOf('https') === 0) {
